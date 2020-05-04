@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "Package: rpremierpas\nType: Package\nTitle: Jeux de donnees pour un premier pas avec R\nVersion: 0.1.0\nAuthor: Raulin L. Cadet\nMaintainer: Raulin L. Cadet <cadetraulin@gmail.com>\nDescription: Ce package contient quelques jeux de données utilisés pour illustrer des notions abordées dans mes cours et séminaires. Ils serviront aussi à un projet de manuel d'initiation à R. Certains des jeux de données ont été simulées par l'auteur, utilisant des fonctions de R. Pour ceux qui ne résultent pas d'une simulation, leurs sources sont indiquées dans la documentation. Les jeux de données ne sont destinées qu'à des fins pédagogiques, permettant à ceux qui apprennent R de réaliser des exercices. Ils peuvent servir aussi à la réalisation d'autres illustrations et exercices qui ne figurent pas dans le livre. L'auteur décline toute responsabilité quant aux éventuels préjudices matériels ou immatériels pouvant découler de l'utilisation ou de la non utilisation du package et de son contenu. \nLicense: GPL-3\nURL: https://github.com/roro1/rpremierpas\nBugReports: https://github.com/roro1/rpremierpas/issues\nEncoding: UTF-8\nLazyData: true\n",
+    "created" : 1525974457066.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3380732593",
+    "id" : "C51EA582",
+    "lastKnownWriteTime" : 1530557699,
+    "last_content_update" : 1530557699410,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/DESCRIPTION",
+    "project_path" : "DESCRIPTION",
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "dcf"
+}

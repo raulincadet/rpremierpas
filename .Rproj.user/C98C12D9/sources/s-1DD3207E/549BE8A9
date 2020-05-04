@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{pHfev}\n\\alias{pHfev}\n\\docType{data}\n\\title{pH de l'eau en fevrier}\n\\description{pH de l'eau produite par une compagnie au mois de fevrier. La compagnie a, certaines fois, plusieurs cycles de production en une journee. C'est pourquoi le nombre de productions est superieur au nombre de jours de travail du mois.\n%%  ~~ A concise (1-5 lines) description of the dataset. ~~\n}\n\\usage{data(\"pHfev\")}\n\\format{\n  Un data frame de 53 observations relatives aux 2 variables qui suivent:\n  \\describe{\n    \\item{\\code{Productions}}{le numero de la production}\n    \\item{\\code{pH}}{le \\code{pH} de l'eau produite}\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the __description__ above ~~\n}\n\\source{\n%%  ~~ reference to a publication or URL from which the data were obtained ~~\n}\n\\references{\n%%  ~~ possibly secondary sources and usages ~~\n}\n\\examples{\nstr(pHfev) ; plot(pHfev) ...\n}\n\\keyword{datasets}\n",
+    "created" : 1535313630309.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3471203331",
+    "id" : "549BE8A9",
+    "lastKnownWriteTime" : 1535315148,
+    "last_content_update" : 1535315148140,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/man/pHfev.Rd",
+    "project_path" : "man/pHfev.Rd",
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

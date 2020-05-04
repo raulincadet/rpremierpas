@@ -1,0 +1,7 @@
+library(foreign)
+un<-read.spss("C:/Users/CRL/Downloads/file_spps.sav",to.data.frame = T)
+table(un$Q1)
+library(openxlsx)
+
+write.xlsx(un,"C:/Users/CRL/Downloads/un.xlsx")
+write.xlsx2(un,"C:/Users/CRL/Downloads/un.xlsx")

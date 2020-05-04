@@ -1,0 +1,62 @@
+setwd("C:/Users/Darlyng Cadet/Box Sync/Folders/Cours/INF105/INF105-2016/Intra2016S")
+library(openxlsx)
+univ<-read.xlsx("TopUniversites1.xlsx")
+
+# Q1- Calculons le score moyen obtenu par les meilleures universités pour 
+#   l'ensemble des trois sujets consideres (EcoBus, Compu, Math)
+MeanScore<-mean(as.numeric(univ$Score))
+MeanScore
+
+# Q2- Trouvons les universites ayant obtenu le score 100 pour l'un ou l'autre des sujets consid?r?s:
+Score100<-subset(univ,univ$Score=="100.0")
+Score100[,2]
+
+# Q3- Trouvons les deux variables les plus corr?l?es au score
+CorAlulm<-cor(as.numeric(univ$Score),as.numeric(univ$AlumniPrix))
+CorStaf<-cor(as.numeric(univ$Score),as.numeric(univ$StaffPrix))
+CorChercheur<-cor(as.numeric(univ$Score),as.numeric(univ$Chercheur))
+CorArticle<-cor(as.numeric(univ$Score),as.numeric(univ$Article))
+CorAlulm
+CorStaf
+CorChercheur
+CorArticle
+
+# Q4- Variables binaires correspondants aux scores superieurs a 50 pour les plus performants (valeur =1)
+#    et les autres qui sont inferieurs ou egales a 50 (valeur = 0)
+univ$perform<-ifelse(as.numeric(univ$Score)<=50.0,0,1)
+table(univ$perform)
+
+# Q5- Calcul des 5 meilleures universites dans chaque sujets
+EcoBus<-subset(univ,univ$Sujet=="EcoBus")
+Compu<-subset(univ,univ$Sujet=="Compu")
+Math<-subset(univ,univ$Sujet=="Math")
+EcoBusTop<-head(EcoBus,5)
+EcoBusTop
+CompuTop<-head(Compu,5)
+CompuTop
+MathTop<-head(Math,5)
+MathTop
+
+# Q6- Calculer le score moyen de MIT pour les trois sujets..
+mit<-subset(univ,univ$Universite=="Massachusetts Institute of Technology (MIT)")
+MeanMIT<-mean(as.numeric(mit$Score),na.rm=T)
+MeanMIT
+stanford<-subset(univ,univ$Universite=="Stanford University")
+MeanStanford<-tanford<-mean(as.numeric(stanford$Score),na.rm=T)
+MeanStanford
+harvard<-subset(univ,univ$Universite=="Harvard University")
+Meanharvard<-tanford<-mean(as.numeric(harvard$Score),na.rm=T)
+Meanharvard
+
+# Q7- Realiser un graphique en baton comparant le score des 5 meilleures universites dans le sujet Compu
+barplot(as.numeric(EcoBusTop$Score),names.arg = c(EcoBusTop$Universite),main = "Meilleures universités en Eco/Gestion")
+barplot(as.numeric(CompuTop$Score),names.arg = c(CompuTop$Universite),main = "Meilleures universités en Informatique")
+barplot(as.numeric(MathTop$Score),names.arg = c(MathTop$Universite),main = "Meilleures universités en Math")
+
+# Q8- Score R?alisons un graphique en baton comparant le score de la variable Article des 5 
+#     meilleures universit?s dans le sujet Compu
+barplot(as.numeric(EcoBusTop$Article),names.arg = c(EcoBusTop$Universite),main = "Score des articles scientifiques des Meilleures universités en Eco/Gestion")
+barplot(as.numeric(CompuTop$Article),names.arg = c(CompuTop$Universite),main = "Score des articles scientifiques des Meilleures universités en Informatique")
+barplot(as.numeric(MathTop$Article),names.arg = c(MathTop$Universite),main = "Score des articles scientifiques des Meilleures universités en Math")
+
+# Q9- Calcul de la moyenne du groupe plus performant et celui du moins performant pour le sujet EcoBus

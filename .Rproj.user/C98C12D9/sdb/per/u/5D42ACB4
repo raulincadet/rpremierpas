@@ -1,0 +1,21 @@
+{
+    "collab_server" : "",
+    "contents" : "library(foreign)\nun<-read.spss(\"C:/Users/CRL/Downloads/file_spps.sav\",to.data.frame = T)\ntable(un$Q1)\nlibrary(openxlsx)\n\nwrite.xlsx(un,\"C:/Users/CRL/Downloads/un.xlsx\")\nwrite.xlsx2(un,\"C:/Users/CRL/Downloads/un.xlsx\")\n",
+    "created" : 1535544379942.000,
+    "dirty" : true,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "924033986",
+    "id" : "5D42ACB4",
+    "lastKnownWriteTime" : 23081149961273460,
+    "last_content_update" : 1535548178274,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "tempName" : "Untitled1"
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{AccesCredit}\n\\alias{AccesCredit}\n\\docType{data}\n\\title{Donnees sur l'acces des pauvres au credit}\n\\description{Donnees d'une enquete, realisee en 2011, sur l'acces des pauvres au credit, dans quelques bidonvilles.}\n\\usage{data(\"AccesCredit\")}\n\\format{\n  Un data frame de 697 observations, pour  6 variables.\n  \\describe{\n    \\item{\\code{AGE}}{age du chef du menage.}\n    \\item{\\code{CHAMBRES}}{nombre de chambres de la maison du menage.}\n    \\item{\\code{SEXE}}{sexe du menage: 1 s'il s'agit d'une femme, et 0 si c'est un homme.}\n    \\item{\\code{ENFANTS}}{nombre d'enfants.}\n    \\item{\\code{MONTANTPRET}}{montant du dernier credit obtenu par le chef de menage.}\n    \\item{\\code{REVENUCHEF}}{revenu mensuel du chef de menage.}\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the __description__ above ~~\n}\n\\source{\n%%  ~~ reference to a publication or URL from which the data were obtained ~~\n}\n\\references{\n%%  ~~ possibly secondary sources and usages ~~\n}\n\\examples{\ndata(AccesCredit)\ntable(AccesCredit$SEXE)\nsummary(AccesCredit$CHAMBRES)\n}\n\\keyword{datasets}\n",
+    "created" : 1525972539509.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2353052404",
+    "id" : "75451D5F",
+    "lastKnownWriteTime" : 1536155915,
+    "last_content_update" : 1536155920246,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/man/AccesCredit.Rd",
+    "project_path" : "man/AccesCredit.Rd",
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

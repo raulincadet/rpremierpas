@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "setwd(\"C:/Users/Darlyng Cadet/Box Sync/Folders/Cours/INF105/INF105-2016/Intra2016S\")\nlibrary(openxlsx)\nuniv<-read.xlsx(\"TopUniversites1.xlsx\")\n\n# Q1- Calculons le score moyen obtenu par les meilleures universités pour \n#   l'ensemble des trois sujets consideres (EcoBus, Compu, Math)\nMeanScore<-mean(as.numeric(univ$Score))\nMeanScore\n\n# Q2- Trouvons les universites ayant obtenu le score 100 pour l'un ou l'autre des sujets consid?r?s:\nScore100<-subset(univ,univ$Score==\"100.0\")\nScore100[,2]\n\n# Q3- Trouvons les deux variables les plus corr?l?es au score\nCorAlulm<-cor(as.numeric(univ$Score),as.numeric(univ$AlumniPrix))\nCorStaf<-cor(as.numeric(univ$Score),as.numeric(univ$StaffPrix))\nCorChercheur<-cor(as.numeric(univ$Score),as.numeric(univ$Chercheur))\nCorArticle<-cor(as.numeric(univ$Score),as.numeric(univ$Article))\nCorAlulm\nCorStaf\nCorChercheur\nCorArticle\n\n# Q4- Variables binaires correspondants aux scores superieurs a 50 pour les plus performants (valeur =1)\n#    et les autres qui sont inferieurs ou egales a 50 (valeur = 0)\nuniv$perform<-ifelse(as.numeric(univ$Score)<=50.0,0,1)\ntable(univ$perform)\n\n# Q5- Calcul des 5 meilleures universites dans chaque sujets\nEcoBus<-subset(univ,univ$Sujet==\"EcoBus\")\nCompu<-subset(univ,univ$Sujet==\"Compu\")\nMath<-subset(univ,univ$Sujet==\"Math\")\nEcoBusTop<-head(EcoBus,5)\nEcoBusTop\nCompuTop<-head(Compu,5)\nCompuTop\nMathTop<-head(Math,5)\nMathTop\n\n# Q6- Calculer le score moyen de MIT pour les trois sujets..\nmit<-subset(univ,univ$Universite==\"Massachusetts Institute of Technology (MIT)\")\nMeanMIT<-mean(as.numeric(mit$Score),na.rm=T)\nMeanMIT\nstanford<-subset(univ,univ$Universite==\"Stanford University\")\nMeanStanford<-tanford<-mean(as.numeric(stanford$Score),na.rm=T)\nMeanStanford\nharvard<-subset(univ,univ$Universite==\"Harvard University\")\nMeanharvard<-tanford<-mean(as.numeric(harvard$Score),na.rm=T)\nMeanharvard\n\n# Q7- Realiser un graphique en baton comparant le score des 5 meilleures universites dans le sujet Compu\nbarplot(as.numeric(EcoBusTop$Score),names.arg = c(EcoBusTop$Universite),main = \"Meilleures universités en Eco/Gestion\")\nbarplot(as.numeric(CompuTop$Score),names.arg = c(CompuTop$Universite),main = \"Meilleures universités en Informatique\")\nbarplot(as.numeric(MathTop$Score),names.arg = c(MathTop$Universite),main = \"Meilleures universités en Math\")\n\n# Q8- Score R?alisons un graphique en baton comparant le score de la variable Article des 5 \n#     meilleures universit?s dans le sujet Compu\nbarplot(as.numeric(EcoBusTop$Article),names.arg = c(EcoBusTop$Universite),main = \"Score des articles scientifiques des Meilleures universités en Eco/Gestion\")\nbarplot(as.numeric(CompuTop$Article),names.arg = c(CompuTop$Universite),main = \"Score des articles scientifiques des Meilleures universités en Informatique\")\nbarplot(as.numeric(MathTop$Article),names.arg = c(MathTop$Universite),main = \"Score des articles scientifiques des Meilleures universités en Math\")\n\n# Q9- Calcul de la moyenne du groupe plus performant et celui du moins performant pour le sujet EcoBus\n",
+    "created" : 1525885927864.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2815046653",
+    "id" : "B6C0D46D",
+    "lastKnownWriteTime" : 1480611898,
+    "last_content_update" : 1480611898,
+    "path" : "C:/Users/CRL/Box Sync/Folders/Cours/INF105/INF105-2016/IntraCorrectum.R",
+    "project_path" : null,
+    "properties" : {
+    },
+    "relative_order" : 6,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}

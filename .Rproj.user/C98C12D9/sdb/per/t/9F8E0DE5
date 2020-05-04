@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{GoogJob}\n\\alias{GoogJob}\n\\docType{data}\n\\title{Tendance des recherches, sur Google, de mots cles relatifs a l'emploi\n%%   ~~ data name/kind ... ~~\n}\n\\description{Donnees mensuelles relatives au score calcule par Google, pour mesurer le poids des recherches de trois mots cles: job, travail, emploi. Les donnees concernent Haiti. Les données couvrent la periode allant de janvier 2004 a décembre 2017.\n%%  ~~ A concise (1-5 lines) description of the dataset. ~~\n}\n\\usage{GoogJob}\n\\format{\n  Un data frame de 168 observations, pour les quatre variables suivantes:\n  \\describe{\n    \\item{\\code{date}}{un vecteur indiquant le mois}\n    \\item{\\code{job}}{le vecteur du score pour le mot cle \"job\" }\n    \\item{\\code{travail}}{le vecteur du score pour le mot cle \"travail\"}\n    \\item{\\code{emploi}}{le vecteur du score pour le mot cle \"emploi\"}\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the __description__ above ~~\n}\n\\source{Les donnees proviennent de https://trends.google.com.\n%%  ~~ reference to a publication or URL from which the data were obtained ~~\n}\n\\references{\n}\n\\examples{\nstr(GoogJob)\nplot(GoogJob$job)\n}\n\\keyword{datasets}\n",
+    "created" : 1512593884132.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2597372205",
+    "id" : "9F8E0DE5",
+    "lastKnownWriteTime" : 1535315852,
+    "last_content_update" : 1535315852742,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/man/GoogJob.Rd",
+    "project_path" : "man/GoogJob.Rd",
+    "properties" : {
+    },
+    "relative_order" : 4,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{EcoleNotes}\n\\alias{EcoleNotes}\n\\docType{data}\n\\title{Notes d'eleves}\n\\description{Notes des eleves, pour certains cours. La note maximale est de 10.\n%Ce jeu de donnees ne comprend que des donnees fictives, simulees à des fins pedagogiques, notamment pour la réalisation d'exercices dans le livre \"Analyse de données: premiers pas avec R.\"\n\n%%  ~~ A concise (1-5 lines) description of the dataset. ~~\n}\n\\usage{EcoleNotes}\n\\format{\n  Un data.frame de 800 observations, avec les huit variables suivantes:\n  \\describe{\n    \\item{\\code{sexe}}{le sexe des eleves, avec les categories: \\code{Fille}, \\code{Garcon}}\n    \\item{\\code{age}}{l'age des eleves}\n    \\item{\\code{classe}}{la classe des eleves, avec les categories: \\code{CP}, \\code{CE1}, \\code{CE2}, \\code{CM1}, \\code{CM2}}.\n    \\item{\\code{math}}{la note des eleves pour le cours de mathematiques}\n    \\item{\\code{ecrit}}{la note des eleves pour le cours d'ecriture}.\n    \\item{\\code{franc}}{la note des eleves pour le cours de francais}.\n    \\item{\\code{angl}}{la note des eleves pour le cours d'anglais}.\n    \\item{\\code{cre}}{la note des eleves pour le cours de creole}.\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the __description__ above ~~\n}\n\\source{\n%%  ~~ reference to a publication or URL from which the data were obtained ~~\n}\n\\references{\n%%  ~~ possibly secondary sources and usages ~~\n}\n\\examples{\ndata(EcoleNotes)\nstr(EcoleNotes)\nplot(EcoleNotes)\n}\n\\keyword{datasets}\n",
+    "created" : 1525973113533.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "14942785",
+    "id" : "DF19615A",
+    "lastKnownWriteTime" : 1530563778,
+    "last_content_update" : 1530563778847,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/man/EcoleNotes.Rd",
+    "project_path" : "man/EcoleNotes.Rd",
+    "properties" : {
+    },
+    "relative_order" : 10,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

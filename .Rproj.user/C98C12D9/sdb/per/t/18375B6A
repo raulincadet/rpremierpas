@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "\\name{pHmars}\n\\alias{pHmars}\n\\docType{data}\n\\title{pH de l'eau en mars}\n\\description{pH de l'eau produite par une compagnie au mois de mars. La compagnie a, certaines fois, plusieurs cycles de production en une journee. C'est pourquoi le nombre de productions est superieur au nombre de jours de travail du mois.\n}\n\\usage{data(\"pHmars\")}\n\\format{\n  Un data frame de 57 observations relatives aux 2 variables qui suivent:\n  \\describe{\n    \\item{\\code{Productions}}{le numero de la production}\n    \\item{\\code{pH}}{le \\code{pH} de l'eau produite}\n  }\n}\n\\details{\n%%  ~~ If necessary, more details than the __description__ above ~~\n}\n\\source{\n%%  ~~ reference to a publication or URL from which the data were obtained ~~\n}\n\\references{\n%%  ~~ possibly secondary sources and usages ~~\n}\n\\examples{\ndata(pHmars)\n## maybe str(pHmars) ; plot(pHmars) ...\n}\n\\keyword{datasets}\n",
+    "created" : 1535313879790.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "782592037",
+    "id" : "18375B6A",
+    "lastKnownWriteTime" : 1535315148,
+    "last_content_update" : 1535315148204,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/man/pHmars.Rd",
+    "project_path" : "man/pHmars.Rd",
+    "properties" : {
+    },
+    "relative_order" : 11,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_doc"
+}

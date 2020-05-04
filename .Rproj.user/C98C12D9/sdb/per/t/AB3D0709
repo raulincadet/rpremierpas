@@ -1,0 +1,20 @@
+{
+    "collab_server" : "",
+    "contents" : "# Hello, world!\n#\n# This is an example function named 'hello'\n# which prints 'Hello, world!'.\n#\n# You can learn more about package authoring with RStudio at:\n#\n#   http://r-pkgs.had.co.nz/\n#\n# Some useful keyboard shortcuts for package authoring:\n#\n#   Build and Reload Package:  'Ctrl + Shift + B'\n#   Check Package:             'Ctrl + Shift + E'\n#   Test Package:              'Ctrl + Shift + T'\n# library(devtools)\n# use_data(coffeedata)\n\n#EcoleNotes<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/ecole.csv\")\n#library(devtools)\n#use_data(EcoleNotes,overwrite = TRUE)\n###########################3\n\n\n\n############# Google Job\n#GoogJob<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/googleJob.csv\")\n#library(devtools)\n#use_data(GoogJob,overwrite = TRUE)\n########\n#library(tidyverse)\n#CreditBancaire<-read.csv(\"C:/Users/CRL/Box Sync/Folders/Cours/INF105/INF2018J/DevoirUP/CreditBancaire.csv\")\n#CreditBancaire<-CreditBancaire[,2:4]\n#use_data(CreditBancaire,overwrite = TRUE)\n#CreditBancaire$Type<-as.factor(as.character(CreditBancaire$Type))\n#mode(CreditBancaire$Type)\n#AccesCredit<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/Formation/Formation R/InitiationR/Credit.csv\",sep=\";\")\n#use_data(AccesCredit,overwrite = TRUE)\n\n#Pharmacie<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/Pharmacie.csv\")\n#library(devtools)\n#use_data(Pharmacie,overwrite=TRUE)\n\n#pHfev<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/phfev.csv\")\n#pHmars<-read.csv(\"C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/phmars.csv\")\n#library(devtools)\n#use_data(pHfev,overwrite=TRUE)\n#use_data(pHmars,overwrite=TRUE)\n",
+    "created" : 1512118255541.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "3675169709",
+    "id" : "AB3D0709",
+    "lastKnownWriteTime" : 1535314472,
+    "last_content_update" : 1535314472998,
+    "path" : "C:/Users/CRL/Box Sync/DaroConsultingProject1/BookR/rpremierpas/R/DataLoading.R",
+    "project_path" : "R/DataLoading.R",
+    "properties" : {
+    },
+    "relative_order" : 1,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "r_source"
+}
